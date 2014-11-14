@@ -1,7 +1,7 @@
-dogecoin-python is a fork of bitcoin-python : https://github.com/laanwj/bitcoin-python
+dogecoindark-python is a fork of dogecoin-python by jcsaaddupuy: https://github.com/jcsaaddupuy/dogecoin-python
 
 It is a set of Python libraries that allows easy access to the
-dogecoin peer-to-peer cryptocurrency client API.
+dogecoindark peer-to-peer cryptocurrency client API.
 
 
 Documentation
@@ -15,7 +15,7 @@ http://jcsaaddupuy.github.io/dogecoin-python/doc/index.html
 Installation instructions
 ===========================
 
-dogecoin-python uses setuptools for the install script. There are no dependencies apart from Python itself.
+dogecoindark-python uses setuptools for the install script. There are no dependencies apart from Python itself.
 
 ::
 
@@ -28,17 +28,17 @@ Pypi / Cheeseshop
 
 It is possible to install the package through Pypi (cheeseshop), see http://pypi.python.org/pypi?:action=display&name=dogecoin-python
 ::
- $ pip install dogecoin-python
+ $ pip install dogecoindark-python
  # if not working, try
- $ pip install --pre dogecoin-python
+ $ pip install --pre dogecoindark-python
 
-Connection to dogecoin-qt
+Connection to dogecoindark-qt
 =========================
 
 If you want to connect to dogecoin-qt, add server=1 in your dogecoin.conf
 ::
 
- rpcuser=dogecoinrpc
+ rpcuser=dogecoindarkrpc
  rpcpassword=A RANDOM GENERATED PASSWORD
  server=1
 
@@ -46,5 +46,5 @@ TODO
 ======
 These things still have to be added:
 
-- SSL support (including certificate verification) for managing remote dogecoin daemons.
+- SSL support (including certificate verification) for managing remote dogecoindark daemons.
 
