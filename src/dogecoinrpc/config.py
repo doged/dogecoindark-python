@@ -60,11 +60,11 @@ def read_default_config(filename=None):
             raise IOError("Home directory not defined, don't know where to look for config file")
 
         if platform.system() == "Darwin":
-            location = 'Library/Application Support/Dogecoin/dogecoin.conf'
+            location = 'Library/Application Support/DogecoinDark/DogeCoinDark.conf'
         elif platform.system() in ('Windows', 'Microsoft'): 
-            location = 'AppData\\Roaming\\DogeCoin\\dogecoin.conf'
+            location = 'AppData\\Roaming\\DogeCoinDark\\DogeCoinDark.conf'
         else:
-            location = '.dogecoin/dogecoin.conf'
+            location = '.DogeCoinDark/DogeCoinDark.conf'
         filename = os.path.join(home, location)
 
     elif filename.startswith("~"):
