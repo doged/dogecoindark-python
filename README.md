@@ -1,4 +1,8 @@
-dogecoindark-python is a fork of dogecoin-python by jcsaaddupuy: https://github.com/jcsaaddupuy/dogecoin-python
+![dogedcoindark-python](http://i.imgur.com/2iVVp2a.png)
+
+#dogecoindark-python 
+
+a fork of dogecoin-python by jcsaaddupuy: https://github.com/jcsaaddupuy/dogecoin-python
 
 It is a set of Python libraries that allows easy access to the
 dogecoindark peer-to-peer cryptocurrency client API.
