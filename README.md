@@ -1,5 +1,4 @@
 ![dogedcoindark-python](http://i.imgur.com/2iVVp2a.png)
-
 #dogecoindark-python 
 
 a fork of dogecoin-python by jcsaaddupuy: https://github.com/jcsaaddupuy/dogecoin-python
